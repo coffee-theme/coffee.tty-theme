@@ -7,5 +7,5 @@
 - Using [baz plugin manager](https://ari-web.xyz/gh/baz):
 
 ```bash
-$ baz install git 'https://ari-web.xyz/gh/coffee.tty-theme'
+$ baz install git 'https://github.com/coffee-theme/coffee.tty-theme'
 ```
