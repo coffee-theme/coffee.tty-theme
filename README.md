@@ -9,3 +9,7 @@
 ```bash
 $ baz install git 'https://github.com/coffee-theme/coffee.tty-theme'
 ```
+
+# Looks
+
+![TTY screenshot](/ss.png)
