@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# Theme generated using: https://www.ari-web.xyz/page/ttytheme
+# Installation: Just add these lines to your ~/.bashrc
+
+[ "$TERM" != 'linux' ] && return # Only run in a TTY
+
+printf "\e]P0262220" # black          rgb(38, 34, 32)     #262220
+printf "\e]P1af5f5f" # red            rgb(175, 95, 95)    #af5f5f
+printf "\e]P287875f" # green          rgb(135, 135, 95)   #87875f
+printf "\e]P3bcbc6c" # brown          rgb(188, 188, 108)  #bcbc6c
+printf "\e]P4666c7f" # blue           rgb(102, 108, 127)  #666c7f
+printf "\e]P5cd7998" # magenta        rgb(205, 121, 152)  #cd7998
+printf "\e]P66d978a" # cyan           rgb(109, 151, 138)  #6d978a
+printf "\e]P7bbbbbb" # light_gray     rgb(187, 187, 187)  #bbbbbb
+printf "\e]P88f9494" # gray           rgb(143, 148, 148)  #8f9494
+printf "\e]P9bb6868" # bold_red       rgb(187, 104, 104)  #bb6868
+printf "\e]PA849155" # bold_green     rgb(132, 145, 85)   #849155
+printf "\e]PBc5c563" # bold_yellow    rgb(197, 197, 99)   #c5c563
+printf "\e]PC87afaf" # bold_blue      rgb(135, 175, 175)  #87afaf
+printf "\e]PDc987a0" # bold_magenta   rgb(201, 135, 160)  #c987a0
+printf "\e]PE7ca296" # bold_cyan      rgb(124, 162, 150)  #7ca296
+printf "\e]PFddd0c0" # bold_white     rgb(221, 208, 192)  #ddd0c0
+
+clear # To fix the background
